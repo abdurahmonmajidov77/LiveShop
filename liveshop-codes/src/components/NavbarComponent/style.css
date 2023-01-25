@@ -1,0 +1,37 @@
+.NavbarComponent{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2.5%;
+    background-color: #A02EE1;
+    border-end-end-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    box-shadow: var(--box-shadow);
+    color: white;
+}
+.NavbarComponent img{
+    width: 15%;
+}
+.NavbarComponent ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.NavBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.NavbarComponent ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+    font-size: 2vw;
+}
+.NavBox input{
+    background-color: white;
+    color: #A02EE1;
+    
+}
