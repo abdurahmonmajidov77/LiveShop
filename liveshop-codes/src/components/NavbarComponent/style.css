@@ -22,6 +22,7 @@
 }
 .NavBox{
     display: flex;
+    height: 100%;
     justify-content: space-between;
     align-items: center;
     padding: 0 1%;
@@ -77,11 +78,11 @@
     border-radius: .5vw;
 }
 .NavbarBarser{
-    width: 250px;
+    width: 200px;
     position: fixed;
     z-index: 4;
     background-color: white;
-    height: 100vh;
+    height: 100%;
     padding: 4%;
     box-shadow: 10px 0 30px 10px rgba(0, 0, 0, 0.4);
     display: none;
@@ -97,10 +98,10 @@
     display: flex;
     width: 100%;
     justify-content: flex-end;
+    height: 100%;
 }
 .NavbarBarser h5 i{
     margin-right: 10px;
-    color: black;
 }
 .NavbarBarser h5{
     color: #A02EE1;
@@ -109,21 +110,23 @@
 .NavbarBarser h5:hover{
     opacity: .7;
 }
+.NavbarBarser img{
+    width: 70%;
+}
 .NavbarBarser li{
     font-size: 2.5vh;
     padding: 1.5%;
     color: #A02EE1;
     width: fit-content;
 }
+.NavSidePinter{
+    font-size: 3vw;
+}
 .NavimgBoxIn{
     display: flex;
 }
 .NavbarBarser li:hover{
     opacity: .7;
-}
-.NavbarBarser p{
-    margin-top: auto;
-    font-size: 2vh;
 }
 .Overlay{
     z-index: 3;

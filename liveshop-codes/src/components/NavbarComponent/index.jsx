@@ -47,8 +47,6 @@ function NavbarComponent() {
             <li>Toogle</li>
             <li><i className='fa-solid fa-cart-shopping'></i></li>
         </ul>
-        <p>2022-2023</p>
-        <p>@LiveShop by Item™</p>
     </div>
     </div>
     <div onClick={closeBars} ref={overlay} className="Overlay"></div>
